@@ -1,0 +1,328 @@
+:root {
+  --arrow-bg: rgba(255, 255, 255, 0.3);
+  --arrow-icon: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg);
+  /* --arrow-icon: url("https://picsum.photos/seed/picsum/200/300"); */
+
+  --option-bg: white;
+  --select-bg: rgba(255, 255, 255, 0.2);
+}
+.special_modal .modal-content{
+  background-color: transparent;
+  border: none;
+}
+.bar{
+    background-color: #3BACB6;
+    position: fixed;
+    height: 470px;
+    width: 220px;
+}
+
+.Modalform{ 
+  width: 790px;
+  height: 95vh;
+    background-color: #E4F1F1;
+    padding: 10px 40px;
+    position: absolute;
+    left: 20%;
+    overflow-y: scroll;
+}
+.Modalform::-webkit-scrollbar {
+  width: 7px;
+}
+                  
+.Modalform::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px lightgrey; 
+  border-radius: 0px;
+  
+}
+                  
+.Modalform::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5); 
+  background-color:rgba(59, 172, 182, 0.8);
+}
+.modalbtn{
+  background-color: transparent;
+  border: none;
+  color: #3BACB6;
+  font-size: 14px;
+  
+}
+.todolistStyle{
+  display: flex;
+  list-style: none;
+  justify-content: start;
+  padding: 0;
+  margin: 0
+}
+.todolistStyle li{
+ padding: 0px 10px;
+ 
+}
+.lineHeight{
+  line-height: px;
+}
+.Modalform h3{
+  color: #3BACB6;
+}
+.Modalform label{
+   font-size: 18px;
+   font-weight: 800;
+   color: #1A3C40;
+  }
+.forms input{
+    width:260px !important;
+    height: 32px;
+    background-color: #E4F1F1;
+    border: 1px solid lightgray;
+}
+.forms input::placeholder{
+  padding: 5px;
+  font-size: 14px;
+}
+.file-upload {
+  width: 230px;
+}
+.head {
+ line-height: 5px;
+}
+.head h4{
+ font-size: 20px;
+ }
+ .head p{
+  font-size: 14px;
+  }
+  .genderBtn{
+    border: 1px solid rgba(0, 0, 0, 0.171);
+   
+  }
+.genderBtn button:first-child{
+  background-color: #3BACB6;
+  border: none;
+  padding: 10px 20px ;
+  font-size: 14px;
+  color: white;
+}
+.genderBtn button{
+  background-color: transparent;
+  border: none;
+  padding: 6.46px;
+  font-size: 14px;
+  
+}
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1FB264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824B;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+.imgIcon{
+  font-size: 40px;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 60px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+.uploadBtn{
+  color: #fff;
+  background-color: #3BACB6;
+  border: none;
+  padding: 1px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 80px;
+  margin-left: 60px;
+}
+
+.image-upload-wrap {
+  border: 2px dashed black;
+  position: relative;
+  height: 120px;
+  width: 220px;
+}
+.imageHeight{
+  width: 215px;
+  height: 117px;
+  
+  object-fit: cover;
+}
+
+
+
+
+
+.drag-text {
+  text-align: center;
+  padding: 10px;
+  line-height: 15px;
+}
+
+
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+.SmallSelect{
+  width: 110px !important;
+  font-size: 14px;
+
+}
+.smallInput{
+  width: 110px !important;
+  margin-left:10px ;
+}
+/* select styles */
+select {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  background: var(--arrow-icon) no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, transparent 3em, transparent 3em);
+  border: 1px solid lightgray;
+  border-radius: 0.25em;
+  cursor: pointer;
+  width:260px !important;
+  height: 32px;
+  padding: 0px 10px;
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
+  }
+  /* Remove focus outline */
+  &:focus {
+    outline: none;
+  }
+  /* <option> colors */
+  option {
+    color: inherit;
+    background-color:#000;
+   
+  }
+
+}
+
+.textareas{
+  width:260px !important;
+  background-color: #E4F1F1 !important;
+  border: 1px solid lightgray;
+}
+.SaveBtn{
+  background-color: #3BACB6;
+  color: #fff;
+  border: none;
+  padding: 5px 16px;
+  border-radius:10px;
+}
+
+.bar-cantent ul {
+  list-style: none;
+  
+}
+.bar-cantent ul li {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 10px 0px;
+  cursor: pointer;
+  color: white;
+  width: 20%;
+  
+}
+
+.bar-cantent ul li {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 10px 0px;
+  cursor: pointer;
+ 
+}
+
+ h6{
+  font-size: 20px;
+ color: #3BACB6;
+}
+.check{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 50px;
+  
+}
+.check input{
+ height: 28px;
+
+}
+.check label{
+  font-size: 18px;
+    font-weight: 800;
+    color: #1A3C40;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+   
+}
+ 
+ 

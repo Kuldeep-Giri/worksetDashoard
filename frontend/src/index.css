@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Alatsi&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abhaya Libre", serif;
+}
+
+/* @media only screen and (min-width: 800px){
+  .leftbar_hamburger{
+    display: none;
+}
+} */
+@media only screen and (max-width: 1400px) and (min-width: 800px) {
+  .leftbar{
+    width: 248px; 
+}
+.rightbar{
+  width: 250px;
+}
+.dashboard ul li{
+  list-style: none;
+  padding: 10px 0px;
+  font-size: 18px;
+}
+.dashboard img{
+  width: 25px;
+  height: 25px;
+ 
+}
+/* .center{
+  width: 80%;
+  left: 15%;
+} */
+.center1{
+  width: 70%;
+  left: 25%;
+}
+
+.centerBtn{
+  font-size: 16px;
+}
+.lowbold{
+  font-size: 18px;
+   }
+   .semibold{
+     font-size: 18px;
+      }
+      .box1 p{
+        font-size: 15px;
+   }
+   .ptext{
+    font-size: 18px;
+   }
+ 
+.div1 button{
+  width: 30px;
+  height: 30px;
+
+}
+.div2 img{
+  width:115px ;
+  height: 130px;
+}
+.heading{
+  width: 70%;
+}
+.div3 button:first-child{
+  width: 229px;
+  height: 35px;
+  background-color: #2F8F9D;
+  border: 1px solid #2F8F9D;
+  border-radius: 20px;
+  color: #fff;
+  font-size:18px;
+margin-left: 20px;
+}
+.div3 button{
+  width: 229px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid #2F8F9D;
+  border-radius: 20px;
+  color: #2F8F9D;
+  font-size:18px;
+margin-left: 20px;
+}
+} 
+
+
+@media only screen and (max-width: 900px)  {
+  .leftbar{
+    display: none;  
+}
+.dashboard ul li{
+  list-style: none;
+  padding: 10px 0px;
+  font-size: 15px;
+}
+.dashboard img{
+  width: 25px;
+  height: 25px;
+ 
+}
+
+.center{
+  width: 100%;
+  left: 0%;
+}
+
+.box2 a{
+  font-size: 14px;
+  margin-left: 13px;
+ }
+ .box2 h3{
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 7px;
+ }
+ .link p {
+  font-size: 11px;
+  margin-top: 30px;
+}
+.centerBtn{
+
+  font-size: 16px;
+  display: flex;
+}
+.edutaionBox p{
+  font-size: 14px;
+  font-weight: 300;
+}
+.edutaionBox {
+  width:100%;
+  line-height: 12px;
+}
+.center1{
+  width: 100%;
+  left: 0%;
+}
+.educationTitle{
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.marginRow{
+  margin-top: 10px;
+}
+} 

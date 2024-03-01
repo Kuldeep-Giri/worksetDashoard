@@ -1,0 +1,61 @@
+
+.leftbar{
+    width: 248px;
+    height: 100vh;
+    background-color: #3BACB6;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: fixed;  
+}
+.leftLink{
+    color: #fff;
+    text-decoration: none;
+}
+.leftbar_hamburger{
+    font-size: 24px;
+    font-weight: 900;
+    position: absolute;
+    top:5%;
+    left: 2%;
+    background-color: #C5C5C5;
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+.Companyname{
+    color: #1A3C40;
+    margin: 60px 0px ;
+   
+}
+.dashboard{
+    color: #fff;
+    font-family: "Alatsi", sans-serif;
+}
+.dashboard img{
+  width: 31px;
+  height: 33px;
+ 
+}
+.dashboard ul{
+   margin-top: 20px;
+   width: 134px;
+}
+.dashboard ul li{
+    list-style: none;
+    padding: 15px 0px;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.dropdownHide{
+    display: none;
+}
+
+.dropdownHide ul{
+    margin-top: 10px;
+}
+.dropdownHide  ul li{
+    margin-top: 0px ;
+    padding: 0px 0px ;
+}

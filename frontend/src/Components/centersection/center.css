@@ -1,0 +1,130 @@
+
+.center{
+   width: 799px;
+   display: flex;
+   justify-content: center;
+   padding: 50px 10px;
+   position: absolute;
+   top: 0;
+   left: 20%;
+ 
+}
+.center1{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px;
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+.link p {
+    font-size: 15px;
+    
+}
+.heading h3{
+    color: #3BACB6;
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #3BACB6;
+}
+.centerBtn{
+    color: #1A3C40;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+}
+
+.box{
+    color:#1A3C40 ;
+}
+.profile-images .img1{
+  width:160px ;
+  height:100px ;
+}
+.profile-images .img2{
+    width:130px ;
+    height:160px ;
+  }
+
+  .about{
+    margin-top: 50px;
+  }
+  .lowbold{
+ font-size: 22px;
+ font-weight: 600;
+
+  }
+  .semibold{
+    font-size: 22px;
+    font-weight: 900;
+     }
+     .socia_media_section{
+      margin-top: 20px;
+     }
+     .socia_media_section .box1{
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 2px solid #3BACB6;
+     }
+     .box1 p{
+          font-size: 20px;
+     }
+
+     .boderbottom{
+      display: flex;
+   border-bottom: 1px solid rgba(211, 210, 210, 0.801);
+     }
+     
+     .boderbottom img{
+      width: 20px;
+      height: 20px;
+      margin-top: 15px;
+       }
+    
+     .box2 h3{
+      font-size: 20px;
+      font-weight: 600;
+      margin-left: 47px;
+      margin-top: 15px;
+     }
+     .box2 a{
+      font-size: 20px;
+      font-weight: 600;
+      margin-left: 130px;
+      text-decoration: none;
+      margin-top: 11px;
+     }
+
+      .services{
+        margin-top: 50px;
+      }
+   .hamburger{
+    display: flex;
+    justify-content: end;
+    font-size: 32px;
+   cursor: pointer;
+   font-weight: 900;
+  position: relative;
+  
+   }
+     .ptext{
+       font-size: 22px;
+       font-weight: 600;
+      }
+      .services h4{
+        font-size: 22px !important;
+        font-weight: 800;
+       
+      }
+      
+
+      .services button{
+        font-size: 17px !important;
+       
+      }

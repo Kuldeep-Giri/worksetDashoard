@@ -1,0 +1,21 @@
+
+.edutaionBox {
+   width: 379px;
+   line-height: 18px;
+}
+.edutaionBox h4{
+    font-size: 20px;
+    font-weight: 900;
+}
+.educationTitle{
+   margin-top: 51px;
+   font-size: 24px;
+   font-weight: 600;
+}
+.edutaionBox p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.marginRow{
+    margin-top: 50px;
+}
